@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>
+    <header>
+        <h1>Layan Travel Planner</h1>
+    </header>
+    
+    <main id="app">
+        <section aria-labelledby="travel-form-title">
+            <h2 id="travel-form-title">Plan Your Trip</h2>
+            <form id="travel-form">
+                <div>
+                    <label for="location">Destination:</label>
+                    <input type="text" id="location" name="location" placeholder="Enter destination" required>
+                </div>
+
+                <div>
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date" required>
+                </div>
+
+                <div>
+                    <label for="end-date">End Date:</label>
+                    <input type="date" name="end-date" id="end-date" required>
+                </div>
+
+                <button type="submit">Get Trip Info</button>
+            </form>
+        </section>
+        
+        <div id="loader" role="status" aria-live="polite" aria-busy="true"></div>
+        
+        <section id="trip-info" aria-labelledby="trip-info-title">
+            <h2 id="trip-info-title" class="visually-hidden">Trip Information</h2>
+            <!-- Trip details will be injected here -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Layan Travel Planner. All rights reserved.</p>
+    </footer>
+</body>
+</html>

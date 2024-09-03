@@ -1,0 +1,68 @@
+# Travel App
+# Author: Layan Jamal Alfar
+
+A web application for planning and managing trips. Integrates multiple APIs to provide travel details including weather, images, and more.
+
+## Features
+
+- **Fetch Geo Data**: Retrieves location information.
+- **Weather Forecast**: Provides weather data for the trip.
+- **Image Search**: Pulls images for locations using the Pixabay API.
+- **Add End Date**: Displays the length of the trip.
+- **Local Storage**: Saves trip data for future visits.
+
+## Getting Started
+
+### Installation
+
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/yourusername/travel-app.git
+    cd travel-app
+    ```
+
+2. **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+### Development
+
+- **Start the server**
+
+    ```bash
+    npm start
+    ```
+
+- **Build for development**
+
+    ```bash
+    npm run build-dev
+    ```
+
+### Testing
+
+- **Run tests**
+
+    ```bash
+    npm test
+    ```
+
+
+## Usage
+
+1. Open the application in your browser.
+2. Enter a location and date to get trip details.
+3. View weather forecasts, images, and trip length.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **GeoNames API**
+- **Weatherbit API**
+- **Pixabay API**
