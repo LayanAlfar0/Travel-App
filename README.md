@@ -13,6 +13,10 @@ A web application for planning and managing trips. Integrates multiple APIs to p
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js (v16 or higher)
+
 ### Installation
 
 1. **Clone the repository**
@@ -50,6 +54,9 @@ A web application for planning and managing trips. Integrates multiple APIs to p
     npm test
     ```
 
+### Configuration
+
+- **API Keys**: Ensure that you have configured your API keys for GeoNames, Weatherbit, and Pixabay APIs in the appropriate files.
 
 ## Usage
 
